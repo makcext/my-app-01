@@ -13,7 +13,7 @@ function MyComponent() {
 
   return (
     <div>
-      <label>Enter a value:</label>
+      <label>Enter text:</label>
       <br />
       <input
         value={inputValue}
@@ -21,10 +21,10 @@ function MyComponent() {
       />
       <br />
       <button onClick={() => handleClick(inputValue, setOutputValue)}>
-        Display value
+        Ok
       </button>
       <br />
-      <label>{outputValue}</label>
+      <label>Hello: {outputValue}</label>
     </div>
   );
 }
