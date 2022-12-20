@@ -13,7 +13,7 @@ function MyComponent() {
 
   return (
     <div>
-      <label>Enter a value!!!:</label>
+      <label>Enter a value:</label>
       <br />
       <input
         value={inputValue}
